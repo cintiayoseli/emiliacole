@@ -1,0 +1,91 @@
+body {
+    background-image: url('../img/emilia-music-top.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:right 0%;
+    font-family: 'Open Sans';
+    list-style:none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+p.header {
+    margin-top: 20px;
+    background-color:  rgba(255, 255, 255, 0.5);
+    text-align:  right;
+    padding: 20px 0;
+}
+
+p.redes {
+    text-align: right;
+  
+}
+h1 {
+    font-family: Raleway;
+    font-size: 70px;
+    margin-top: 100px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  ul .item{
+    color: black;
+  }
+  
+  ul li a {
+    color: rgb(85, 85, 85);
+  }
+h2{
+    font-family: Raleway;
+margin-top: none;
+}  
+@media only screen and (max-width: 726px){
+  body{
+    margin:0px;
+    padding:0px;
+    padding-left:5%;
+    display:block;
+    float:none;
+    text-align:left;
+  }
+  p.header {
+    margin-top: 70px;
+   text-align:  left;
+   padding: 0;
+}
+p.redes {
+  text-align: center;
+
+}
+h1 {
+  
+  font-size: 30px;
+  }
+  h2{
+    font-size: 20px; 
+
+} 
+.contenedor{
+  height:0px;
+  width:95%;
+  padding-top:56.25%;
+  position:relative;
+  }
+  
+  iframe{
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0px;
+  left:0px;
+  }
+  img{
+    background-image: url("./img/emilia-play-list.png");
+    height:100%;
+  width:100%;
+  
+  }
+ 
+}
